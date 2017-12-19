@@ -1,0 +1,24 @@
+# git ls-files --others --exclude-from=.git/info/exclude
+# Lines that start with '#' are comments.
+# For a project mostly in C, the following would be a good set of
+# exclude patterns (uncomment them if you want to use them):
+# *.[oa]
+# *~
+
+# Aligorith's Blender Tooling
+CustomLogger.dll
+bdb.bat
+bmc.bat
+bmc_full.bat
+bsc.bat
+dbf.bat
+dmc.bat
+rbf.bat
+smc.bat
+user-config.py
+
+build_files/cmake/config/blender_core.cmake
+build_files/cmake/config/blender_core_scripts.cmake
+build_files/cmake/platform/platform_win32_msvc-mine.cmake
+
+

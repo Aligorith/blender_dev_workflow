@@ -60,9 +60,10 @@ BLENDER 2.8:  (Special commands are needed due to various problems on my config)
 Installation
 ============
 
-1) Rename and copy `git-info-exclude` to .git/info/exclude
+1) Rename and copy `git-info-exclude` to `.git/info/exclude`
 2) Copy over all the .bat files to the root folder of the repo (i.e. alongside `.gitignore`)
 3) Copy over the .cmake files to `build_files/cmake/config/`
+4) Add the contents of `git_config_addons.ini` to the end of `.git/config`
 
 
 ----------------

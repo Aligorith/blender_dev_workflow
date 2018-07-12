@@ -1,2 +1,2 @@
 @echo off
-..\install\blender --debug-gpu %* 2> nul
+..\install\blender --debug-gpu --disable-crash-handler %* 2> nul
